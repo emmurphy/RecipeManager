@@ -1,7 +1,10 @@
 package main;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 
 public class Main
 {
+    private static final Logger logger = LogManager.getLogger(Main.class);
 
     /**
      * @brief The main method of the GUI
@@ -9,7 +12,7 @@ public class Main
      */
     public static void main(String[] args)
     {
-        // TODO Auto-generated method stub
+        logger.info( "Starting Recipie Manager GUI " );
 
     }
 
